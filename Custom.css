@@ -8,3 +8,7 @@ color: #32CD32 !important;
 color: #B58900 !important;
 }
 .cm-s-web-inspector-js span.cm-number {color:#268BD2 !important}
+
+.CodeMirror pre.CodeMirror-cursor {
+border-left: 1px solid white !important;
+}
