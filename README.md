@@ -10,6 +10,6 @@
 
 **Windows**: C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
 
-**Mac**: ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css
+**Mac**: ~/Library/Application\ Support/Google/Chrome\ Canary/Profile\ 1/User\ StyleSheets/Custom.css
 
 ##### Screenshots : http://imgur.com/a/3d64V
