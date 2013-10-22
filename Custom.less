@@ -33,7 +33,7 @@
 @font-size: 0.65rem;
 
 // For "security" purpose (it override the CSS on the page, not only the Chrome DevTools)
-body#-webkit-web-inspector {
+body.platform-mac {
 
 #main {
     background-color: @base03 !important;
@@ -498,7 +498,7 @@ li.hovered:not(.selected) .selection {
 /* Chrome DevTools + view-source:
 /**********************************************/
 
-body#-webkit-web-inspector,
+body.platform-mac,
 .webkit-line-gutter-backdrop,
 .webkit-line-gutter-backdrop + table {
 

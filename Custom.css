@@ -9,7 +9,7 @@
 /* http://darcyclarke.me/design/skin-your-chrome-inspector/
 /*
 /**********************************************/
-body#-webkit-web-inspector {
+body.platform-mac {
   /**********************************************/
 
   /* Console
@@ -66,207 +66,207 @@ body#-webkit-web-inspector {
 /**********************************************/
 
 }
-body#-webkit-web-inspector #main {
+body.platform-mac #main {
   background-color: #002b36 !important;
 }
-body#-webkit-web-inspector #main .panel.network,
-body#-webkit-web-inspector #main .panel.timeline,
-body#-webkit-web-inspector #main .panel.profiles,
-body#-webkit-web-inspector #main .panel.audits,
-body#-webkit-web-inspector #main .panel.extension {
+body.platform-mac #main .panel.network,
+body.platform-mac #main .panel.timeline,
+body.platform-mac #main .panel.profiles,
+body.platform-mac #main .panel.audits,
+body.platform-mac #main .panel.extension {
   background-color: #fff !important;
 }
-body#-webkit-web-inspector #console-messages a:hover,
-body#-webkit-web-inspector #console-messages .console-formatted-function,
-body#-webkit-web-inspector #console-messages .console-formatted-object,
-body#-webkit-web-inspector #console-messages .console-formatted-array {
+body.platform-mac #console-messages a:hover,
+body.platform-mac #console-messages .console-formatted-function,
+body.platform-mac #console-messages .console-formatted-object,
+body.platform-mac #console-messages .console-formatted-array {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector #console-prompt,
-body#-webkit-web-inspector #console-messages a,
-body#-webkit-web-inspector #console-messages .console-message,
-body#-webkit-web-inspector #console-messages .console-group-messages .section .header .title {
+body.platform-mac #console-prompt,
+body.platform-mac #console-messages a,
+body.platform-mac #console-messages .console-message,
+body.platform-mac #console-messages .console-group-messages .section .header .title {
   color: #839496 !important;
   border-top: 0 !important;
 }
-body#-webkit-web-inspector #console-messages .console-formatted-null,
-body#-webkit-web-inspector #console-messages .console-formatted-undefined {
+body.platform-mac #console-messages .console-formatted-null,
+body.platform-mac #console-messages .console-formatted-undefined {
   color: #657b83 !important;
 }
-body#-webkit-web-inspector #console-messages .auto-complete-text,
-body#-webkit-web-inspector #console-messages .editing .auto-complete-text {
+body.platform-mac #console-messages .auto-complete-text,
+body.platform-mac #console-messages .editing .auto-complete-text {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector #console-messages .console-message,
-body#-webkit-web-inspector .console-user-command {
+body.platform-mac #console-messages .console-message,
+body.platform-mac .console-user-command {
   border-bottom: 1px solid #586e75 !important;
   border-top: 0 !important;
 }
-body#-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
+body.platform-mac #console-messages .console-user-command > .console-message-text {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector #console-messages .console-formatted-number {
+body.platform-mac #console-messages .console-formatted-number {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector #console-messages .console-formatted-string {
+body.platform-mac #console-messages .console-formatted-string {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector #console-messages .console-formatted-regexp {
+body.platform-mac #console-messages .console-formatted-regexp {
   color: #cb4b16 !important;
 }
-body#-webkit-web-inspector #console-messages .section .properties .name,
-body#-webkit-web-inspector .event-properties .name {
+body.platform-mac #console-messages .section .properties .name,
+body.platform-mac .event-properties .name {
   color: #268bd2 !important;
   opacity: 1 !important;
 }
-body#-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
-body#-webkit-web-inspector #console-messages .properties-tree li.parent::before {
+body.platform-mac #console-messages .console-group-messages .section .header::before,
+body.platform-mac #console-messages .properties-tree li.parent::before {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
-body#-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before {
+body.platform-mac #console-messages .console-group-messages .section.expanded .header::before,
+body.platform-mac #console-messages .properties-tree li.parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector #console-messages .console-error-level .console-message-text .title {
+body.platform-mac #console-messages .console-error-level .console-message-text .title {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector #console-messages .section .properties .name,
-body#-webkit-web-inspector #console-messages .event-properties .name,
-body#-webkit-web-inspector #console-messages .console-formatted-object .name {
+body.platform-mac #console-messages .section .properties .name,
+body.platform-mac #console-messages .event-properties .name,
+body.platform-mac #console-messages .console-formatted-object .name {
   color: #859900 !important;
 }
-body#-webkit-web-inspector #console-messages .console-user-command::before {
+body.platform-mac #console-messages .console-user-command::before {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTMzNzdGNUZDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTMzNzdGNjBDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y1REMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y1RUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pia6udAAAAB5SURBVHjaYvz//z8DMYAFxli9ejWI6oByK5AVhYaGIhRCgQsQGwOxIFTxe5gEE5pCVyA+C8RpQLwbqgmrwvdQxauhis6AbMamEASUkEwCabyHTWE51BQlqBNMoDSKQhckX3dCFd3DCB4g2AP16VkoGwUwEhvgAAEGAAzQHBRSxqPRAAAAAElFTkSuQmCC) !important;
 }
-body#-webkit-web-inspector #console-messages .outline-disclosure li.parent::before,
-body#-webkit-web-inspector .section .header::before,
-body#-webkit-web-inspector .properties-tree li.parent::before {
+body.platform-mac #console-messages .outline-disclosure li.parent::before,
+body.platform-mac .section .header::before,
+body.platform-mac .properties-tree li.parent::before {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector .section.expanded .header::before,
-body#-webkit-web-inspector .properties-tree li.parent.expanded::before {
+body.platform-mac .section.expanded .header::before,
+body.platform-mac .properties-tree li.parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector #drawer {
+body.platform-mac #drawer {
   background-color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages a:hover,
-body#-webkit-web-inspector #drawer #console-messages .console-formatted-function,
-body#-webkit-web-inspector #drawer #console-messages .console-formatted-object,
-body#-webkit-web-inspector #drawer #console-messages .console-formatted-array {
+body.platform-mac #drawer #console-messages a:hover,
+body.platform-mac #drawer #console-messages .console-formatted-function,
+body.platform-mac #drawer #console-messages .console-formatted-object,
+body.platform-mac #drawer #console-messages .console-formatted-array {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector #drawer #console-prompt,
-body#-webkit-web-inspector #drawer #console-messages a,
-body#-webkit-web-inspector #drawer #console-messages .console-message,
-body#-webkit-web-inspector #drawer #console-messages .console-group-messages .section .header .title {
+body.platform-mac #drawer #console-prompt,
+body.platform-mac #drawer #console-messages a,
+body.platform-mac #drawer #console-messages .console-message,
+body.platform-mac #drawer #console-messages .console-group-messages .section .header .title {
   color: #657b83 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .console-formatted-null,
-body#-webkit-web-inspector #drawer #console-messages .console-formatted-undefined {
+body.platform-mac #drawer #console-messages .console-formatted-null,
+body.platform-mac #drawer #console-messages .console-formatted-undefined {
   color: #839496 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .auto-complete-text,
-body#-webkit-web-inspector #drawer #console-messages .editing .auto-complete-text {
+body.platform-mac #drawer #console-messages .auto-complete-text,
+body.platform-mac #drawer #console-messages .editing .auto-complete-text {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .console-message,
-body#-webkit-web-inspector #drawer .console-user-command {
+body.platform-mac #drawer #console-messages .console-message,
+body.platform-mac #drawer .console-user-command {
   border-bottom: 1px solid #586e75 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .console-message,
-body#-webkit-web-inspector #drawer .console-user-command {
+body.platform-mac #drawer #console-messages .console-message,
+body.platform-mac #drawer .console-user-command {
   border-bottom: 1px solid #93a1a1 !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .console-group-messages .section .header::before,
-body#-webkit-web-inspector #drawer #console-messages .properties-tree li.parent::before {
+body.platform-mac #drawer #console-messages .console-group-messages .section .header::before,
+body.platform-mac #drawer #console-messages .properties-tree li.parent::before {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleBlack.png) !important;
 }
-body#-webkit-web-inspector #drawer #console-messages .console-group-messages .section.expanded .header::before,
-body#-webkit-web-inspector #drawer #console-messages .properties-tree li.parent.expanded::before {
+body.platform-mac #drawer #console-messages .console-group-messages .section.expanded .header::before,
+body.platform-mac #drawer #console-messages .properties-tree li.parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
 }
-body#-webkit-web-inspector #console-prompt::before {
+body.platform-mac #console-prompt::before {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRGNTc2MTZDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRGNTc2MTdDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y2MUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y2MkMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plf0eOsAAAB4SURBVHjaYvz//z8DMYAFxph+BqyhA8qtQFaUacKIUAgFLkBsDMSCUMXvYRJMaApdgfgsEKcB8W6oJqwK30MVr4YqOgPEodgUgoASkkkgjfewKSyHmqIEdYIJlEZR6ILk606oonsYwQMEe6A+PQtlowBGYgMcIMAAF2wcFPVNZx8AAAAASUVORK5CYII=) !important;
   color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector .webkit-line-number {
+body.platform-mac .webkit-line-number {
   background-color: #073642 !important;
   color: #586e75;
   font-size: -0.35rem !important;
 }
-body#-webkit-web-inspector .webkit-line-content {
+body.platform-mac .webkit-line-content {
   color: #839496 !important;
 }
-body#-webkit-web-inspector .panel.scripts .navigator-tabbed-pane .navigator {
+body.platform-mac .panel.scripts .navigator-tabbed-pane .navigator {
   background: #fdf6e3;
 }
-body#-webkit-web-inspector .panel.scripts .outline-disclosure > ol {
+body.platform-mac .panel.scripts .outline-disclosure > ol {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector .panel.scripts .outline-disclosure ol:focus li.selected,
-body#-webkit-web-inspector .panel.scripts .navigator :focus li.selected {
+body.platform-mac .panel.scripts .outline-disclosure ol:focus li.selected,
+body.platform-mac .panel.scripts .navigator :focus li.selected {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector #storage-views .script-view,
-body#-webkit-web-inspector #network-views .script-view,
-body#-webkit-web-inspector #elements-content .highlight,
-body#-webkit-web-inspector #script-resource-views .script-view {
+body.platform-mac #storage-views .script-view,
+body.platform-mac #network-views .script-view,
+body.platform-mac #elements-content .highlight,
+body.platform-mac #script-resource-views .script-view {
   color: #839496 !important;
 }
-body#-webkit-web-inspector #elements-content .parent::before {
+body.platform-mac #elements-content .parent::before {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
   position: relative;
   z-index: 999;
 }
-body#-webkit-web-inspector #elements-content .parent.expanded::before {
+body.platform-mac #elements-content .parent.expanded::before {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector li.hovered:not(.selected) .selection {
+body.platform-mac li.hovered:not(.selected) .selection {
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
-body#-webkit-web-inspector .outline-disclosure li.selected .selection {
+body.platform-mac .outline-disclosure li.selected .selection {
   background-color: #073642 !important;
 }
-body#-webkit-web-inspector .outline-disclosure ol:focus li.selected .selection {
+body.platform-mac .outline-disclosure ol:focus li.selected .selection {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
-body#-webkit-web-inspector .editing {
+body.platform-mac .editing {
   background-color: #fdf6e3 !important;
   outline-color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-css-comment {
+body.platform-mac .webkit-css-comment {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-line-content,
-body#-webkit-web-inspector .webkit-css-selector {
+body.platform-mac .webkit-line-content,
+body.platform-mac .webkit-css-selector {
   color: #268bd2 !important;
 }
-body#-webkit-web-inspector .webkit-css-property {
+body.platform-mac .webkit-css-property {
   color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector .webkit-css-keyword {
+body.platform-mac .webkit-css-keyword {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .webkit-css-number {
+body.platform-mac .webkit-css-number {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .webkit-css-at-rule {
+body.platform-mac .webkit-css-at-rule {
   color: #268bd2 !important;
 }
-body#-webkit-web-inspector .webkit-css-string {
+body.platform-mac .webkit-css-string {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .webkit-css-url {
+body.platform-mac .webkit-css-url {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-css-color {
+body.platform-mac .webkit-css-color {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .webkit-css-string {
+body.platform-mac .webkit-css-string {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-css-keyword {
+body.platform-mac .webkit-css-keyword {
   color: #cb4b16 !important;
 }
 @-webkit-keyframes fadeOut {
@@ -277,133 +277,133 @@ body#-webkit-web-inspector .webkit-css-keyword {
     background-color: #002b36;
   }
 }
-body#-webkit-web-inspector .webkit-highlighted-line.webkit-line-content {
+body.platform-mac .webkit-highlighted-line.webkit-line-content {
   -webkit-animation: fadeOut 2s 0s !important;
 }
-body#-webkit-web-inspector .webkit-html-error-message {
+body.platform-mac .webkit-html-error-message {
   background-color: #FFD1D1 !important;
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .webkit-javascript-ident {
+body.platform-mac .webkit-javascript-ident {
   color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector .webkit-javascript-keyword {
+body.platform-mac .webkit-javascript-keyword {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .webkit-javascript-comment {
+body.platform-mac .webkit-javascript-comment {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-javascript-string {
+body.platform-mac .webkit-javascript-string {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .webkit-javascript-number {
+body.platform-mac .webkit-javascript-number {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .webkit-javascript-regexp {
+body.platform-mac .webkit-javascript-regexp {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .webkit-html-external-link,
-body#-webkit-web-inspector .webkit-html-resource-link {
+body.platform-mac .webkit-html-external-link,
+body.platform-mac .webkit-html-resource-link {
   color: #b58900 !important;
   text-decoration: none !important;
 }
-body#-webkit-web-inspector #elements-sidebar {
+body.platform-mac #elements-sidebar {
   background: #002b36 !important;
 }
-body#-webkit-web-inspector #elements-sidebar .styles-section.read-only,
-body#-webkit-web-inspector #elements-sidebar .styles-section.read-only .monospace {
+body.platform-mac #elements-sidebar .styles-section.read-only,
+body.platform-mac #elements-sidebar .styles-section.read-only .monospace {
   background: #002b36 !important;
 }
-body#-webkit-web-inspector #elements-sidebar .styles-section,
-body#-webkit-web-inspector #elements-sidebar .subtitle {
+body.platform-mac #elements-sidebar .styles-section,
+body.platform-mac #elements-sidebar .subtitle {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector #elements-sidebar .styles-selector {
+body.platform-mac #elements-sidebar .styles-selector {
   color: #6c71c4 !important;
 }
-body#-webkit-web-inspector #elements-sidebar .webkit-css-property {
+body.platform-mac #elements-sidebar .webkit-css-property {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .styles-section .styles-selector .selector-matches,
-body#-webkit-web-inspector #elements-sidebar .properties .value {
+body.platform-mac .styles-section .styles-selector .selector-matches,
+body.platform-mac #elements-sidebar .properties .value {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .webkit-html-external-link,
-body#-webkit-web-inspector .webkit-html-resource-link {
+body.platform-mac .webkit-html-external-link,
+body.platform-mac .webkit-html-resource-link {
   color: #859900 !important;
   text-decoration: none !important;
 }
-body#-webkit-web-inspector .webkit-css-property,
-body#-webkit-web-inspector .webkit-css-at-rule,
-body#-webkit-web-inspector .console-formatted-string,
-body#-webkit-web-inspector .console-formatted-regexp {
+body.platform-mac .webkit-css-property,
+body.platform-mac .webkit-css-at-rule,
+body.platform-mac .console-formatted-string,
+body.platform-mac .console-formatted-regexp {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .styles-section.read-only > * {
+body.platform-mac .styles-section.read-only > * {
   background-color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector .styles-section .properties .child-editing,
-body#-webkit-web-inspector .styles-section .title > div > span,
-body#-webkit-web-inspector .styles-section .styles-selector > div > span,
-body#-webkit-web-inspector .section .properties .name,
-body#-webkit-web-inspector .event-properties .name {
+body.platform-mac .styles-section .properties .child-editing,
+body.platform-mac .styles-section .title > div > span,
+body.platform-mac .styles-section .styles-selector > div > span,
+body.platform-mac .section .properties .name,
+body.platform-mac .event-properties .name {
   color: #268bd2 !important;
 }
-body#-webkit-web-inspector .webkit-css-property + .value {
+body.platform-mac .webkit-css-property + .value {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .styles-section .properties .child-editing > span *,
-body#-webkit-web-inspector .console-formatted-object,
-body#-webkit-web-inspector .console-formatted-node,
-body#-webkit-web-inspector .console-formatted-array {
+body.platform-mac .styles-section .properties .child-editing > span *,
+body.platform-mac .console-formatted-object,
+body.platform-mac .console-formatted-node,
+body.platform-mac .console-formatted-array {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .pane > .title {
+body.platform-mac .pane > .title {
   font-size: -0.35rem !important;
 }
-body#-webkit-web-inspector .pane > .body .info,
-body#-webkit-web-inspector .placard .title {
+body.platform-mac .pane > .body .info,
+body.platform-mac .placard .title {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .console-formatted-number {
+body.platform-mac .console-formatted-number {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .styles-section .properties .enabled-button {
+body.platform-mac .styles-section .properties .enabled-button {
   margin: 0 2px 0 !important;
   left: -38px !important;
   width: 14px !important;
 }
-body#-webkit-web-inspector .properties-tree li.parent::before,
-body#-webkit-web-inspector .properties-tree li.parent.expanded::before {
+body.platform-mac .properties-tree li.parent::before,
+body.platform-mac .properties-tree li.parent.expanded::before {
   content: none !important;
   float: none !important;
 }
-body#-webkit-web-inspector .styles-section.matched-styles .properties li.parent .expand-element {
+body.platform-mac .styles-section.matched-styles .properties li.parent .expand-element {
   content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector .styles-section.matched-styles .properties li.parent.expanded .expand-element {
+body.platform-mac .styles-section.matched-styles .properties li.parent.expanded .expand-element {
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
-body#-webkit-web-inspector .suggest-box.generic-suggest {
+body.platform-mac .suggest-box.generic-suggest {
   background-color: #fdf6e3 !important;
 }
-body#-webkit-web-inspector .suggest-box-content-item {
+body.platform-mac .suggest-box-content-item {
   color: #b58900 !important;
   font-weight: normal !important;
 }
-body#-webkit-web-inspector .suggest-box-content-item .prefix {
+body.platform-mac .suggest-box-content-item .prefix {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .resource-view {
+body.platform-mac .resource-view {
   color: #839496;
 }
-body#-webkit-web-inspector .resource-view.image .infoList dt {
+body.platform-mac .resource-view.image .infoList dt {
   color: #268bd2 !important;
 }
 /**********************************************/
 /* Chrome DevTools + view-source:
 /**********************************************/
-body#-webkit-web-inspector,
+body.platform-mac,
 .webkit-line-gutter-backdrop,
 .webkit-line-gutter-backdrop + table {
   /**********************************************/
@@ -435,27 +435,27 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   /* Color scheme for code-mirror */
 
 }
-body#-webkit-web-inspector .webkit-line-number,
+body.platform-mac .webkit-line-number,
 .webkit-line-gutter-backdrop .webkit-line-number,
 .webkit-line-gutter-backdrop + table .webkit-line-number,
-body#-webkit-web-inspector .webkit-line-content,
+body.platform-mac .webkit-line-content,
 .webkit-line-gutter-backdrop .webkit-line-content,
 .webkit-line-gutter-backdrop + table .webkit-line-content {
   background-color: #002b36 !important;
 }
-body#-webkit-web-inspector .monospace,
+body.platform-mac .monospace,
 .webkit-line-gutter-backdrop .monospace,
 .webkit-line-gutter-backdrop + table .monospace,
-body#-webkit-web-inspector .source-code,
+body.platform-mac .source-code,
 .webkit-line-gutter-backdrop .source-code,
 .webkit-line-gutter-backdrop + table .source-code,
-body#-webkit-web-inspector .webkit-line-number,
+body.platform-mac .webkit-line-number,
 .webkit-line-gutter-backdrop .webkit-line-number,
 .webkit-line-gutter-backdrop + table .webkit-line-number,
-body#-webkit-web-inspector .webkit-line-content,
+body.platform-mac .webkit-line-content,
 .webkit-line-gutter-backdrop .webkit-line-content,
 .webkit-line-gutter-backdrop + table .webkit-line-content,
-body#-webkit-web-inspector #elements-sidebar .child-editing,
+body.platform-mac #elements-sidebar .child-editing,
 .webkit-line-gutter-backdrop #elements-sidebar .child-editing,
 .webkit-line-gutter-backdrop + table #elements-sidebar .child-editing {
   font-family: Monaco, monospace !important;
@@ -464,42 +464,42 @@ body#-webkit-web-inspector #elements-sidebar .child-editing,
   font-smooth: never !important;
   -webkit-font-smoothing: none !important;
 }
-body#-webkit-web-inspector .webkit-html-comment,
+body.platform-mac .webkit-html-comment,
 .webkit-line-gutter-backdrop .webkit-html-comment,
 .webkit-line-gutter-backdrop + table .webkit-html-comment {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-html-tag,
+body.platform-mac .webkit-html-tag,
 .webkit-line-gutter-backdrop .webkit-html-tag,
 .webkit-line-gutter-backdrop + table .webkit-html-tag {
   color: #268bd2 !important;
 }
-body#-webkit-web-inspector .webkit-html-attribute-name,
+body.platform-mac .webkit-html-attribute-name,
 .webkit-line-gutter-backdrop .webkit-html-attribute-name,
 .webkit-line-gutter-backdrop + table .webkit-html-attribute-name {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .webkit-html-attribute-value,
+body.platform-mac .webkit-html-attribute-value,
 .webkit-line-gutter-backdrop .webkit-html-attribute-value,
 .webkit-line-gutter-backdrop + table .webkit-html-attribute-value {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .webkit-html-css-node,
+body.platform-mac .webkit-html-css-node,
 .webkit-line-gutter-backdrop .webkit-html-css-node,
 .webkit-line-gutter-backdrop + table .webkit-html-css-node {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-html-js-node,
+body.platform-mac .webkit-html-js-node,
 .webkit-line-gutter-backdrop .webkit-html-js-node,
 .webkit-line-gutter-backdrop + table .webkit-html-js-node {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .webkit-html-external-link,
+body.platform-mac .webkit-html-external-link,
 .webkit-line-gutter-backdrop .webkit-html-external-link,
 .webkit-line-gutter-backdrop + table .webkit-html-external-link {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll,
+body.platform-mac .CodeMirror-scroll,
 .webkit-line-gutter-backdrop .CodeMirror-scroll,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll {
   color-profile: sRGB !important;
@@ -521,162 +521,162 @@ body#-webkit-web-inspector .CodeMirror-scroll,
     */
 
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-widget,
+body.platform-mac .CodeMirror-scroll .CodeMirror-widget,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-widget,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-widget {
   text-shadow: none !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-keyword,
+body.platform-mac .CodeMirror-scroll span.cm-keyword,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-keyword,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-keyword {
   color: #cb4b16 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-atom,
+body.platform-mac .CodeMirror-scroll span.cm-atom,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-atom,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-atom {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-number,
+body.platform-mac .CodeMirror-scroll span.cm-number,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-number,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-number {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-def,
+body.platform-mac .CodeMirror-scroll span.cm-def,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-def,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-def {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-variable,
+body.platform-mac .CodeMirror-scroll span.cm-variable,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-variable,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-variable {
   color: #268bd2 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-variable-2,
+body.platform-mac .CodeMirror-scroll span.cm-variable-2,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-variable-2,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-variable-2 {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-variable-3,
+body.platform-mac .CodeMirror-scroll span.cm-variable-3,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-variable-3,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-variable-3 {
   color: #6c71c4 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-property,
+body.platform-mac .CodeMirror-scroll span.cm-property,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-property,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-property {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-operator,
+body.platform-mac .CodeMirror-scroll span.cm-operator,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-operator,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-operator {
   color: #6c71c4 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-comment,
+body.platform-mac .CodeMirror-scroll span.cm-comment,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-comment,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-comment {
   color: #586e75 !important;
   font-style: italic !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-string,
+body.platform-mac .CodeMirror-scroll span.cm-string,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-string,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-string {
   color: #859900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-string-2,
+body.platform-mac .CodeMirror-scroll span.cm-string-2,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-string-2,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-string-2 {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-meta,
+body.platform-mac .CodeMirror-scroll span.cm-meta,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-meta,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-meta {
   color: #859900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-error,
+body.platform-mac .CodeMirror-scroll span.cm-error,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-error,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-error,
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-invalidchar,
+body.platform-mac .CodeMirror-scroll span.cm-invalidchar,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-invalidchar,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-invalidchar {
   color: #586e75 !important;
   border-bottom: 1px dotted #dc322f !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-qualifier,
+body.platform-mac .CodeMirror-scroll span.cm-qualifier,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-qualifier,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-qualifier {
   color: #b58900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-builtin,
+body.platform-mac .CodeMirror-scroll span.cm-builtin,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-builtin,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-builtin {
   color: #d33682 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-bracket,
+body.platform-mac .CodeMirror-scroll span.cm-bracket,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-bracket,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-bracket {
   color: #cb4b16 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-matchingbracket,
+body.platform-mac .CodeMirror-scroll .CodeMirror-matchingbracket,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-matchingbracket,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-matchingbracket {
   color: #859900 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-nonmatchingbracket,
+body.platform-mac .CodeMirror-scroll .CodeMirror-nonmatchingbracket,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-nonmatchingbracket,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-nonmatchingbracket {
   color: #dc322f !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-tag,
+body.platform-mac .CodeMirror-scroll span.cm-tag,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-tag,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-tag {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-attribute,
+body.platform-mac .CodeMirror-scroll span.cm-attribute,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-attribute,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-attribute {
   color: #2aa198 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-header,
+body.platform-mac .CodeMirror-scroll span.cm-header,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-header,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-header {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-quote,
+body.platform-mac .CodeMirror-scroll span.cm-quote,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-quote,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-quote {
   color: #93a1a1 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-hr,
+body.platform-mac .CodeMirror-scroll span.cm-hr,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-hr,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-hr {
   color: transparent !important;
   border-top: 1px solid #586e75 !important;
   display: block !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-link,
+body.platform-mac .CodeMirror-scroll span.cm-link,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-link,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-link {
   color: #93a1a1 !important;
   cursor: pointer !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-special,
+body.platform-mac .CodeMirror-scroll span.cm-special,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-special,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-special {
   color: #6c71c4 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-em,
+body.platform-mac .CodeMirror-scroll span.cm-em,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-em,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-em {
   color: #999 !important;
   text-decoration: underline !important;
   text-decoration-style: dotted !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-strong,
+body.platform-mac .CodeMirror-scroll span.cm-strong,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-strong,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-strong {
   color: #eee !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll span.cm-tab:before,
+body.platform-mac .CodeMirror-scroll span.cm-tab:before,
 .webkit-line-gutter-backdrop .CodeMirror-scroll span.cm-tab:before,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll span.cm-tab:before {
   content: "➤" !important;
@@ -684,66 +684,66 @@ body#-webkit-web-inspector .CodeMirror-scroll span.cm-tab:before,
 
   color: #586e75 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-focused .CodeMirror-selected,
+body.platform-mac .CodeMirror-scroll .CodeMirror-focused .CodeMirror-selected,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-focused .CodeMirror-selected,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-focused .CodeMirror-selected {
   background: #386774 !important;
   color: inherit !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll ::selection,
+body.platform-mac .CodeMirror-scroll ::selection,
 .webkit-line-gutter-backdrop .CodeMirror-scroll ::selection,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll ::selection {
   background: #386774 !important;
   color: inherit !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-selected,
+body.platform-mac .CodeMirror-scroll .CodeMirror-selected,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-selected,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-selected {
   background: #586e75 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-scroll.CodeMirror,
+body.platform-mac .CodeMirror-scroll .CodeMirror-scroll.CodeMirror,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-scroll.CodeMirror,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-scroll.CodeMirror {
   box-shadow: inset 7px 0 12px -6px #000000 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-gutter,
+body.platform-mac .CodeMirror-scroll .CodeMirror-gutter,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-gutter,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-gutter {
   border-right: 1px solid !important;
   background: #073642 !important;
   border-color: #00232c !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-linenumber,
+body.platform-mac .CodeMirror-scroll .CodeMirror-linenumber,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-linenumber,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-linenumber {
   text-shadow: #021014 0 -1px !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-linenumber,
+body.platform-mac .CodeMirror-scroll .CodeMirror-linenumber,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-linenumber,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-linenumber {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-gutter .CodeMirror-gutter-text,
+body.platform-mac .CodeMirror-scroll .CodeMirror-gutter .CodeMirror-gutter-text,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-gutter .CodeMirror-gutter-text,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-gutter .CodeMirror-gutter-text {
   color: #586e75 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-lines,
+body.platform-mac .CodeMirror-scroll .CodeMirror-lines,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-lines,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-lines {
   padding-left: 5px !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .CodeMirror-lines .CodeMirror-cursor,
+body.platform-mac .CodeMirror-scroll .CodeMirror-lines .CodeMirror-cursor,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .CodeMirror-lines .CodeMirror-cursor,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .CodeMirror-lines .CodeMirror-cursor {
   border-left: 1px solid #819090 !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .activeline,
+body.platform-mac .CodeMirror-scroll .activeline,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .activeline,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .activeline {
   margin-left: -20px !important;
 }
-body#-webkit-web-inspector .CodeMirror-scroll .activeline,
+body.platform-mac .CodeMirror-scroll .activeline,
 .webkit-line-gutter-backdrop .CodeMirror-scroll .activeline,
 .webkit-line-gutter-backdrop + table .CodeMirror-scroll .activeline {
   background: rgba(255, 255, 255, 0.05) !important;
