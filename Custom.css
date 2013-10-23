@@ -66,14 +66,20 @@ body.platform-mac {
 /**********************************************/
 
 }
-body.platform-mac #main {
+body.platform-mac #main,
+body.platform-mac .fill {
   background-color: #002b36 !important;
 }
 body.platform-mac #main .panel.network,
+body.platform-mac .fill .panel.network,
 body.platform-mac #main .panel.timeline,
+body.platform-mac .fill .panel.timeline,
 body.platform-mac #main .panel.profiles,
+body.platform-mac .fill .panel.profiles,
 body.platform-mac #main .panel.audits,
-body.platform-mac #main .panel.extension {
+body.platform-mac .fill .panel.audits,
+body.platform-mac #main .panel.extension,
+body.platform-mac .fill .panel.extension {
   background-color: #fff !important;
 }
 body.platform-mac #console-messages a:hover,
