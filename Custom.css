@@ -10,6 +10,8 @@
 /*
 /**********************************************/
 body.platform-mac {
+  font-size: 0.65rem !important;
+  color: #839496 !important;
   /**********************************************/
 
   /* Console
@@ -81,6 +83,9 @@ body.platform-mac .fill .panel.audits,
 body.platform-mac #main .panel.extension,
 body.platform-mac .fill .panel.extension {
   background-color: #fff !important;
+}
+body.platform-mac .selected {
+  background: #586e75 !important;
 }
 body.platform-mac #console-messages a:hover,
 body.platform-mac #console-messages .console-formatted-function,

@@ -34,7 +34,8 @@
 
 // For "security" purpose (it override the CSS on the page, not only the Chrome DevTools)
 body.platform-mac {
-
+  font-size: @font-size !important;
+  color: @base0 !important;
 #main,
 .fill {
     background-color: @base03 !important;
@@ -50,7 +51,9 @@ body.platform-mac {
         }
     }
 }
-
+.selected {
+  background: @base01 !important;
+}
 /**********************************************/
 /* Console
 /**********************************************/
